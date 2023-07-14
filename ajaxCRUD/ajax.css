@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+body{
+    background-image: url("back.webp");
+    background-size: cover;
+}
+#header{
+    display: flex;
+    padding: 50% 10%;
+}
+
+#row1 {
+    background-color:gray ;
+}
+.name #name , .email #email, .Usname #Uname ,.id #id , .phno #phno ,.button #button{
+    border: 0;
+    color:#fff;
+    margin: 5px;
+   background: #fff;
+   font-size: 20px;
+   display: block;
+   padding:10px 8px;
+   border: 1px solid azure;
+   outline:none;
+   border-radius:10px;
+}
+::placeholder{
+    color: black;
+}
